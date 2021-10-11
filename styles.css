@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: white;
+  max-height: 600px;
+  max-width: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.hero-content {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.plan-container {
+  position: relative;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.summary-para {
+  color: hsl(224, 23%, 55%);
+  margin-top: 0;
+  font-size: 16px;
+}
+.plan-img {
+  height: 48px;
+  margin-right: 20px;
+}
+
+.plan-name {
+  font-size: small;
+  font-weight: bold;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+  font-size: small;
+}
+
+.change-plan {
+  position: absolute;
+  color: hsl(245, 75%, 52%);
+  font-size: small;
+  right: 15px;
+
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  align-self: center;
+  border-radius: 10px;
+  outline: none;
+}
+
+.proceed {
+  border: 0px solid white;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.cancel {
+  margin-top: 5px;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  background: transparent;
+}
